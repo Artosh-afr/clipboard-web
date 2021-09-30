@@ -1,0 +1,110 @@
+@media (max-width:1150px){
+    .computer-screen-plus-text{
+        column-gap: none;
+        flex-direction: column;
+        
+    }
+
+        .computer-monitor{
+            transform:none;
+        }
+            .list-of-actions{
+                display:flex;
+                flex-direction: row;
+                margin: 5rem auto 0;
+                justify-content: space-around;
+                column-gap: 20px;   
+            }
+
+                    .list-of-actions ul{
+                        max-width: 400px;
+                        margin:0 auto !important;
+                        text-align: center;
+                    }
+                    
+
+                            
+}
+@media (max-width:900px){
+    .attribution{
+        display: none;
+    }
+    button{
+        display: block;
+        width:500px;
+        margin: 1.5rem auto !important ;
+        padding: 16px;
+    }
+
+   
+}
+
+@media (max-width:850px){
+    :root{
+        font-size: 17px;
+    }
+    .list-of-actions{
+       
+        flex-direction: column;
+         
+    }
+
+    .list-of-actions{
+        margin-top: 2rem !important;
+    }
+   
+    .list-of-actions ul{
+        margin:2rem auto !important;
+    }
+
+
+
+
+
+    .tools-container{
+        flex-direction: column;
+
+    }
+
+    .tools-container ul{
+
+        margin-top: 3rem !important;
+
+        }
+
+        .company-container{
+            flex-direction: column;
+        }
+                .company-container img{
+                    margin-top: 3rem;
+                }
+
+
+    footer{
+        flex-direction: column;
+    }
+             .logo-container{
+                 margin-top: 3rem;
+             }
+
+            .service-links{
+                flex-direction: column;
+                margin: .5rem auto 0 !important;
+                text-align: center;
+                
+            }
+                        .service-links li{
+                            margin-top: 1rem;
+                        }
+
+
+            
+                    .social-links svg{
+                         margin:2rem ;  
+                           
+                    }
+
+                
+
+
+}
