@@ -31,7 +31,7 @@
     }
     button{
         display: block;
-        width:500px;
+        width:450px;
         margin: 1.5rem auto !important ;
         padding: 16px;
     }
@@ -39,9 +39,19 @@
    
 }
 
+
+
+
 @media (max-width:850px){
     :root{
         font-size: 17px;
+    }
+
+
+    .computer-monitor{
+        max-width: 90%;
+        max-height: 90%;
+        margin:auto;
     }
     .list-of-actions{
        
