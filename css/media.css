@@ -1,6 +1,7 @@
 @media (max-width:1150px){
     .computer-screen-plus-text{
-        column-gap: none;
+        -moz-column-gap: none;
+             column-gap: none;
         flex-direction: column;
         
     }
@@ -13,7 +14,8 @@
                 flex-direction: row;
                 margin: 5rem auto 0;
                 justify-content: space-around;
-                column-gap: 20px;   
+                -moz-column-gap: 20px;
+                     column-gap: 20px;   
             }
 
                     .list-of-actions ul{
@@ -26,6 +28,14 @@
                             
 }
 @media (max-width:900px){
+
+   body{
+    justify-content: stretch; 
+    align-items: stretch; 
+   }
+   header{
+       max-width: 100%;
+   }
     .attribution{
         display: none;
     }
@@ -92,6 +102,7 @@
 
     footer{
         flex-direction: column;
+        
     }
              .logo-container{
                  margin-top: 3rem;
