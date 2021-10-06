@@ -203,7 +203,7 @@ body{
 
         
         .access-phone-tablet{
-            margin: 0 auto 4rem;
+            margin: 0 auto 6rem;
             text-align: center;
         }
             .access-phone-tablet > p{
@@ -213,7 +213,7 @@ body{
 
                 .tablet-phone-picture{
                     display: block;
-                    margin: 4rem auto;
+                    margin: 5rem auto;
                     max-height: 100%;
                     max-width: 100%;
                 }
@@ -231,7 +231,7 @@ body{
                 
 
         .supercharge-workflow{
-            margin: 0 auto 4rem;
+            margin: 0 auto 5rem;
             text-align: center;
         }
 
@@ -270,7 +270,7 @@ body{
 
                 .company-container{
                     display: flex;
-                    margin: 2rem auto 7rem;
+                    margin: 7rem auto 7rem;
                     justify-content: space-around;
                     min-height:80px;
                     align-items: center;
@@ -415,7 +415,7 @@ body{
      top:0;
      left:50%;
      transform:translateX(-50%);
-    color:black;
+     color:black;
      
  }
     .attribution a { color: hsl(228, 45%, 44%); }
