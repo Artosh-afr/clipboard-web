@@ -29,10 +29,15 @@ body{
     min-height: 100vh;
     background: url("../images/bg-header-desktop.png") no-repeat;
     background-position: top;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    
 }
 
     header{
-        margin:9rem auto 8rem ;
+        margin:8rem auto 8rem ;
         text-align: center;
         max-width: 700px;
     }
@@ -49,7 +54,7 @@ body{
                 font-family: BaiJamjuree400;
                 color:var(--Grayish-Blue);
                 font-size: 1.2rem;
-                margin-bottom:3rem;
+                margin-bottom:2rem;
                 line-height: 1.6;
                 
             }
@@ -153,7 +158,8 @@ body{
            margin-bottom: 11rem ;
             display: flex;
             overflow: hidden;
-            column-gap: 5vw;
+            -moz-column-gap: 5vw;
+                 column-gap: 5vw;
             
         }
 
@@ -263,7 +269,7 @@ body{
                             .tools-container p{
                                 font-family: BaiJamjuree400;
                                 color: var(--Grayish-Blue);
-                                margin: 1rem;
+                                margin: 1rem auto;
                                 line-height: 1.8;
                                 width: 90%;
                             }
@@ -311,12 +317,15 @@ body{
 
                 
     footer{
-        margin: 9rem auto 0;
+        margin: 8rem auto 0;
         display: flex;
         background-color: rgb(245, 245, 245);
-        column-gap: 30px;
+        -moz-column-gap: 30px;
+             column-gap: 30px;
         min-height: 130px;
         max-width: 1440px;
+        width:100%;
+        
        
         
    
