@@ -32,15 +32,17 @@ body{
 }
 
     header{
-        margin:3rem auto;
+        margin:10rem auto 8rem ;
         text-align: center;
         max-width: 700px;
     }
-
+            .header-logo{
+                margin-bottom:  4rem;
+            }
             h1{
                 font-family:BaiJamjuree600 ;
                 font-size: 2.5rem;
-                margin: 2rem 0 .5rem;
+                margin-bottom: .5rem;
                 color: var(--Dark-Grayish-Blue);
             }
             header > p{
@@ -56,7 +58,7 @@ body{
                 display:inline-block;
                 padding: 12px;
                 width: 220px;
-                max-width: 100%;
+                max-width: 90%;
                 border-radius: 40px;
                 color:white;
                 border: none;
@@ -115,7 +117,6 @@ body{
 
 
     main{
-        margin-top: 8rem;
         max-width: 1440px;
     }
 
@@ -125,7 +126,7 @@ body{
 
 
         .keep-track{
-            margin:auto;
+            margin: 0 auto 4rem;
             text-align: center;
             max-width: 700px;
         }
@@ -149,7 +150,7 @@ body{
 
 
         .computer-screen-plus-text{
-            margin-top: 5rem;
+           margin-bottom: 11rem ;
             display: flex;
             overflow: hidden;
             column-gap: 5vw;
@@ -202,7 +203,7 @@ body{
 
         
         .access-phone-tablet{
-            margin:10rem auto;
+            margin: 0 auto 4rem;
             text-align: center;
         }
             .access-phone-tablet > p{
@@ -230,7 +231,7 @@ body{
                 
 
         .supercharge-workflow{
-            margin: 4rem auto;
+            margin: 0 auto 4rem;
             text-align: center;
         }
 
@@ -363,7 +364,7 @@ body{
                     text-align: center;
                 }
 
-
+                    
                      .social-links svg{
                          margin:0 10px;
                          cursor: pointer;
